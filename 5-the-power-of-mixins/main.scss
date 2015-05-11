@@ -5,21 +5,8 @@
  	border-bottom-left-radius: 8px;
 }
 
-@mixin green_links {
-	a {
-		color: green;
-		&:hover {
-			color: blue;
-		}
-	}
-	h1 {
-		color: red;
-	}
-}
-
 .box {
   @include roundy;
-  @include green_links;
 }
 
 // A whole bunch of other code
